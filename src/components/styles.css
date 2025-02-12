@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full-table {
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.full-table th, .full-table td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    /* height: 100vh; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.searchIcon {
+    width: 25px;
+    height: 25px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
